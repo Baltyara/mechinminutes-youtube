@@ -144,6 +144,7 @@ keys/
 *.webm
 processing.log
 tiktok_to_youtube.log
+roadmap.md
 
 # IDE
 .vscode/
