@@ -1,0 +1,34 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Roadmap Compliance Rules
+
+- You should always strive to follow the plan from [roadmap.md](mdc:docs/roadmap.md).
+- Before starting to think about your answer, understand which step you need to complete next.
+- If the user's request contradicts the plan, fulfill the request anyway.
+- If the user's request is not related to the current project, fulfill the request.
+- At the end of each task edit [roadmap.md](mdc:docs/roadmap.md) to check off the completed steps.
+- If the user disrupts the order of steps, still edit [roadmap.md](mdc:docs/roadmap.md) to check off the completed steps.
+- At the end of each response, write to the user which steps have been completed, in the format "[X] Step name". Use wording from [roadmap.md](mdc:docs/roadmap.md).
+- Implement only those items in the [roadmap.md](mdc:docs/roadmap.md) that you are explicitly asked to do. Example: when creating authorization, you have the right to deviate a bit from the prompt and create functionality that provides security and convenience. But you are not allowed to go ahead of the roadmap and create, for example, user profile settings
+- If you edited [roadmap.md](mdc:docs/roadmap.md), write in the chat "🔄Roadmap has been updated"
+
+## Проектные правила
+
+- Пиши объяснения исключительно на русском.
+- Приоритеты: 1) Полнота, 2) Читаемость, 3) Краткость.
+- Самодокументируемый код, без лишних комментариев.
+- Следуй существующим подходам проекта; переиспользуй код; не меняй архитектуру без явного запроса.
+- Реализуй только запрошенные изменения.
+- Меньше слов и кода — без потери ясности.
+- Тесты — приоритет. Используй цикл: код → тесты → рефакторинг → тесты.
+- Если падают тесты вне изменённых мест — анализируй влияние изменений, не игнорируй.
+- При ошибках удаления/недоступных URL в сборке — не повторяй, спроси пользователя.
+- Опирайся на `project_rules.md` в корне проекта.
+- Для API-информации используй MCP сервер `contex7`; если не найдено — спроси пользователя.
+- Для задач в PowerShell — готовь полный скрипт и запускай.
+- Чем короче код, тем лучше, без ущерба читаемости и полноте.
+- Действуй как старший программист: принимай решения, предвидь риски, держи качество.
+- Всегда используй MCP context7 для получения и проверки документации/примеров по библиотекам.
