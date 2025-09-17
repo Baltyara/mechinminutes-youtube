@@ -148,6 +148,7 @@ tiktok_to_youtube.log
 # IDE
 .vscode/
 .idea/
+.cursor/
 *.swp
 *.swo
 *~
